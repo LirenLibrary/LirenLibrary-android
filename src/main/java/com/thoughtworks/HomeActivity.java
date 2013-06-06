@@ -10,6 +10,5 @@ public class HomeActivity extends SherlockFragmentActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.home);
     }
-
 }
 
