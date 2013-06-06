@@ -30,3 +30,6 @@ proguard/
 
 # Output
 target/
+
+# OS
+.DS_Store
