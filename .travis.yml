@@ -2,7 +2,7 @@ language: java
 jdk: oraclejdk6
 env:
     matrix:
-    - ANDROID_TARGET=android-16  ANDROID_SDKS=android-16,build-tools-16.0.0,sysimg-16 ANDROID_BUILD_TOOLS_VERSION=16.0.0 ANDROID_ABI=armeabi-v7a
+    - ANDROID_TARGET=android-16  ANDROID_SDKS=android-16,build-tools-16.0.0,sysimg-16 ANDROID_BUILD_TOOLS_VERSION=16.0.0 ANDROID_ABI=armeabi-v7a ANDROID_HOME=`pwd`/android-sdk-linux
  
 before_install:
 
