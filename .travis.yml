@@ -16,6 +16,7 @@ before_install:
   - export PATH=${ANDROID_HOME}/tools:${ANDROID_HOME}/platform-tools:${PATH}
   # Install required Android components.
   - android update sdk --filter platform-tools,android-16 --no-ui --force
+  - android list targets
   - echo no | android create avd -n android-16 -t 1
   
 before_script:
