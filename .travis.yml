@@ -34,7 +34,7 @@ before_install:
 before_script:
   # Make sure the emulator has started before running tests
   - chmod +x ./.wait_for_emulator
-  - ./wait_for_emulator
+  - ./.wait_for_emulator
   - chmod +x build.sh
 
 script:
